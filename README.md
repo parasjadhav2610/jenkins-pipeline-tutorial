@@ -45,7 +45,7 @@ git pull
 git log
 
 ##to create a new branch
-git -b anybranchname
+git checkout -b anybranchname
 git checkout abovebranchname
 git remote -v
 git branch -vv
