@@ -267,7 +267,7 @@ Add this line in the puppet master file: JAVA_ARGS="-Xms512m -Xmx512m"
 sudo systemctl restart puppet-master.service
 sudo ufw allow 8140/tcp
 sudo nano /etc/hosts
-add line here "master-ip puppet"
+add line here "(master-ip) puppet"
 
 
 Run these two commands at the end(after every slave command is executed)
